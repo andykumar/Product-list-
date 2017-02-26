@@ -1,0 +1,15 @@
+{
+    "name": "product-management",
+      "author": "Anurag",
+    "description": " Acme Product Management sample application",
+    "scripts": {
+        "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
+        "tsc": "tsc",
+        "tsc:w": "tsc -w",
+        "lint": "tslint ./app/**/*.ts -t verbose",
+        "lite": "lite-server",
+        "typings": "typings",
+        "postinstall": "typings install"
+    },
+    "license": "Ak",
+}
